@@ -1,0 +1,111 @@
+/* Geral */
+ 
+
+
+body {
+    /* configuração da fonte */
+    font-family: Helvetica;
+    /* alinhamento do texto centralizado */
+    text-align: center;
+    /* configurando a cor da fonte */
+    color: white;
+    /* configurando a cor do fundo */
+    background-color: #333;
+    /* Reset depadding */
+    padding: 0;
+    /* Reset de margem  */
+    margin: 0;
+}
+
+/* Estilos aplicados na seção nav */
+nav {
+    /*tipo de renderização do elemento */
+    display: flex;
+    /* alinhamento dos elementos*/
+    justify-content: space-between;
+    /*distância entre o conteúdo de um elemento e bordas*/
+    padding: 20px;
+    /* alinhamento de items ao centro*/
+    align-items: center;
+    /* propriedades da borda inferior*/
+    border-bottom: 1px solid #666;
+}
+
+/* Estilos aplicados a listas não-ordenadas */
+nav ul {
+     /* tipo de caixa de renderização */
+    display: flex;
+ /*  marcador do item(none) */
+    list-style: none;
+    
+}
+
+/*  Estilos aplicados a listas contidas nas ordenadas*/
+ul li {
+    /*margem à direita*/
+    margin-right: 12px;
+}
+
+/*  */
+ul li a {
+     /* configurando a cor da fonte */
+    color: #fff;
+    /*estilo das linhas especificadas como a*/
+    text-decoration: none;
+     /*efeito de transição*/
+    transition: 0.5s;
+}
+
+/*  */
+ul li a:hover {
+    /* mudança de cor quando passa o mouse*/
+    color: rgb(15, 89, 150);
+}
+
+/*  */ 
+h1 {
+    /*tamanho da fonte do H1*/
+    font-size: 32px;
+}
+
+/*  */ 
+img {
+    /* borda da imagem*/
+    border: 3px solid rgb(15, 194, 218);
+    /*tamanho da imagem*/
+    height: 300px;
+}
+
+/*  */
+footer {
+    /* distância entre o conteúdo de um elemento e bordas*/
+    padding: 20px; 
+    /* borda superior*/
+    border-top: 1px solid #666;
+    /* distância entre o conteúdo de um elemento e suas bordas*/
+    padding: 20px; 
+    /*configurando margems superior*/
+    margin-top: 20px;
+    /*define  tamanho da fonte*/
+    font-size: 32px;
+}
+
+
+
+/* Estilo aplicado no elemento pela tag */ 
+img {
+    /* borda da imagem*/
+    border: 3px solid rgb(15, 194, 218);
+       /* tamanho da imagem*/
+    height: 300px;
+}
+
+/*Estilos da  Sessão footer */
+footer {
+    /*distância entre o conteúdo de um elemento e suas bordas*/
+    padding: 20px;
+     /*configurando  borda superior*/
+    border-top: 1px solid #666;
+     /*define margem superior*/
+    margin-top: 20px;
+}
